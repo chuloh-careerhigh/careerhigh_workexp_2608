@@ -9,41 +9,19 @@
   },
   "favicon": "/favicon.svg",
   "navigation": {
-    "groups": [
+    "tabs": [
       {
-        "group": "시작하기",
-        "pages": [
-          "introduction",
-          "program-overview"
-        ]
-      },
-      {
-        "group": "팀 활동비 관리",
-        "pages": [
-          "expenses/approval-request",
-          "expenses/result-report",
-          "expenses/guidelines"
-        ]
-      },
-      {
-        "group": "수료 및 수료증",
-        "pages": [
-          "completion/requirements",
-          "completion/certificate"
-        ]
-      },
-      {
-        "group": "중도포기",
-        "pages": [
-          "withdrawal/process",
-          "withdrawal/faq"
-        ]
-      },
-      {
-        "group": "자주 묻는 질문",
-        "pages": [
-          "faq/expenses-faq",
-          "faq/general-faq"
+        "tab": "팀활동",
+        "groups": [
+          {
+            "group": "팀활동비",
+            "pages": [
+              "team-activity/expenses/process",
+              "team-activity/expenses/usage-principles",
+              "team-activity/expenses/expense-request",
+              "team-activity/expenses/expense-result"
+            ]
+          }
         ]
       }
     ]
