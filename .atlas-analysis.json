@@ -1,13 +1,11 @@
 {
-  "$schema": "https://mintlify.com/docs.json",
+  "projectType": "general",
+  "projectName": "일경험 참가자 가이드",
+  "projectDescription": "일경험 프로그램 참가자를 위한 팀 활동비 사용, 지출품의 및 결과 보고, 수료증 발급, 중도포기 절차 등 전반적인 운영 안내 가이드.",
   "theme": "almond",
-  "name": "일경험 참가자 가이드",
-  "colors": {
-    "primary": "#ef7025",
-    "light": "#eec9bc",
-    "dark": "#4fa1ab"
-  },
-  "favicon": "/favicon.svg",
+  "primaryColor": "#ef7025",
+  "lightColor": "#eec9bc",
+  "darkColor": "#4fa1ab",
   "navigation": {
     "groups": [
       {
@@ -48,15 +46,12 @@
       }
     ]
   },
-  "navbar": {
-    "links": [
-      {
-        "label": "문의하기",
-        "href": "mailto:support@careerhigh.kr"
-      }
-    ]
-  },
-  "footer": {
-    "socials": {}
-  }
+  "keyFeatures": [
+    "팀 활동비 지출품의 절차 안내",
+    "지출결과서 작성 및 제출 가이드",
+    "수료 조건 및 수료증 발급 안내",
+    "중도포기 신청 절차 및 유의사항",
+    "자주 묻는 질문 및 문의 안내"
+  ],
+  "publicApiSurface": []
 }
