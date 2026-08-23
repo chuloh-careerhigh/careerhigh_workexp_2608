@@ -26,12 +26,12 @@
           {
             "group": "팀활동비",
             "pages": [
+              "team-activity/expenses/process",
+              "team-activity/expenses/usage-principles",
               {
                 "group": "지출품의",
                 "expanded": false,
                 "pages": [
-                  "team-activity/expenses/process",
-                  "team-activity/expenses/usage-principles",
                   "team-activity/expenses/expense-request"
                 ]
               },
