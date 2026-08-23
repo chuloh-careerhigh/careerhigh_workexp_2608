@@ -19,7 +19,8 @@
               "team-activity/expenses/process",
               "team-activity/expenses/usage-principles",
               "team-activity/expenses/expense-request",
-              "team-activity/expenses/expense-result"
+              "team-activity/expenses/expense-result",
+              "team-activity/expenses/cross-check"
             ]
           }
         ]
