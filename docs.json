@@ -21,17 +21,21 @@
   "navigation": {
     "tabs": [
       {
-        "tab": "제출링크",
+        "tab": "팀활동",
         "groups": [
           {
             "group": "팀활동비",
             "pages": [
               "team-activity/expenses/process",
               "team-activity/expenses/usage-principles",
+              "team-activity/expenses/cross-check",
               {
                 "group": "지출품의",
                 "expanded": false,
                 "pages": [
+                  "team-activity/expenses/shared-folder",
+                  "team-activity/expenses/create-request-sheet",
+                  "team-activity/expenses/write-request",
                   "team-activity/expenses/expense-request"
                 ]
               },
@@ -39,14 +43,13 @@
                 "group": "지출결과",
                 "expanded": false,
                 "pages": [
-                  "team-activity/expenses/expense-result",
-                  "team-activity/expenses/cross-check"
+                  "team-activity/expenses/expense-result"
                 ]
               }
             ]
           },
           {
-            "group": "프로젝트 과제",
+            "group": "프로젝트 안내",
             "pages": [
               {
                 "group": "프로젝트별 일정",
@@ -75,7 +78,7 @@
     "links": [
       {
         "label": "문의하기",
-        "href": "mailto:support@careerhigh.kr"
+        "href": "https://careerhigh.channel.io/home"
       }
     ]
   },
