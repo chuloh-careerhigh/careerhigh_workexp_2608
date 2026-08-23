@@ -1,26 +1,70 @@
 {
   "$schema": "https://mintlify.com/docs.json",
-  "theme": "almond",
+  "theme": "mint",
   "name": "일경험 참가자 가이드",
   "colors": {
-    "primary": "#ef7025",
-    "light": "#eec9bc",
-    "dark": "#4fa1ab"
+    "primary": "#0D9373",
+    "light": "#55D799",
+    "dark": "#0D9373"
+  },
+  "fonts": {
+    "family": "Inter",
+    "heading": {
+      "family": "Inter",
+      "weight": 700
+    }
+  },
+  "interaction": {
+    "drilldown": false
   },
   "favicon": "/favicon.svg",
   "navigation": {
     "tabs": [
       {
-        "tab": "팀활동",
+        "tab": "제출링크",
         "groups": [
           {
             "group": "팀활동비",
             "pages": [
-              "team-activity/expenses/process",
-              "team-activity/expenses/usage-principles",
-              "team-activity/expenses/expense-request",
-              "team-activity/expenses/expense-result",
-              "team-activity/expenses/cross-check"
+              {
+                "group": "지출품의",
+                "expanded": false,
+                "pages": [
+                  "team-activity/expenses/process",
+                  "team-activity/expenses/usage-principles",
+                  "team-activity/expenses/expense-request"
+                ]
+              },
+              {
+                "group": "지출결과",
+                "expanded": false,
+                "pages": [
+                  "team-activity/expenses/expense-result",
+                  "team-activity/expenses/cross-check"
+                ]
+              }
+            ]
+          },
+          {
+            "group": "프로젝트 과제",
+            "pages": [
+              {
+                "group": "프로젝트별 일정",
+                "expanded": false,
+                "pages": [
+                  "team-activity/projects/schedules/real-estate-finance",
+                  "team-activity/projects/schedules/pension",
+                  "team-activity/projects/schedules/ecm",
+                  "team-activity/projects/schedules/digital-service",
+                  "team-activity/projects/schedules/overseas-securities",
+                  "team-activity/projects/schedules/risk-management",
+                  "team-activity/projects/schedules/corporate-sales",
+                  "team-activity/projects/schedules/research",
+                  "team-activity/projects/schedules/dcm",
+                  "team-activity/projects/schedules/trust"
+                ]
+              },
+              "team-activity/projects/submission"
             ]
           }
         ]
