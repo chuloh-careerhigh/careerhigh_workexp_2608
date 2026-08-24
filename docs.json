@@ -34,7 +34,11 @@
   "interaction": {
     "drilldown": false
   },
-  "favicon": "/favicon.svg",
+  "logo": {
+    "light": "/images/wormark-color.png",
+    "dark": "/images/wormark-color.png"
+  },
+  "favicon": "/images/logo-square.png",
   "navigation": {
     "global": {
       "anchors": [
