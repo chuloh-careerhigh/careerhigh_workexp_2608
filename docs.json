@@ -49,6 +49,8 @@
       {
         "tab": "팀활동비",
         "pages": [
+          "team-activity/expenses/process",
+          "team-activity/expenses/usage-principles",
           {
             "group": "지출품의 제출하기",
             "pages": [
@@ -73,30 +75,33 @@
               "team-activity/expenses/cross-check",
               "team-activity/expenses/deduction-criteria"
             ]
-          },
-          "team-activity/expenses/usage-principles",
-          "team-activity/expenses/process"
+          }
         ]
       },
       {
         "tab": "프로젝트 안내",
         "pages": [
           {
-            "group": "프로젝트별 일정",
+            "group": "프로젝트",
             "pages": [
-              "team-activity/projects/schedules/real-estate-finance",
-              "team-activity/projects/schedules/pension",
-              "team-activity/projects/schedules/ecm",
-              "team-activity/projects/schedules/digital-service",
-              "team-activity/projects/schedules/overseas-securities",
-              "team-activity/projects/schedules/risk-management",
-              "team-activity/projects/schedules/corporate-sales",
-              "team-activity/projects/schedules/research",
-              "team-activity/projects/schedules/dcm",
-              "team-activity/projects/schedules/trust"
+              "team-activity/projects/submission",
+              {
+                "group": "일정 안내",
+                "pages": [
+                  "team-activity/projects/schedules/real-estate-finance",
+                  "team-activity/projects/schedules/pension",
+                  "team-activity/projects/schedules/ecm",
+                  "team-activity/projects/schedules/digital-service",
+                  "team-activity/projects/schedules/overseas-securities",
+                  "team-activity/projects/schedules/risk-management",
+                  "team-activity/projects/schedules/corporate-sales",
+                  "team-activity/projects/schedules/research",
+                  "team-activity/projects/schedules/dcm",
+                  "team-activity/projects/schedules/trust"
+                ]
+              }
             ]
-          },
-          "team-activity/projects/submission"
+          }
         ]
       }
     ]
