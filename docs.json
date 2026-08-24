@@ -50,13 +50,6 @@
         "tab": "팀활동비",
         "pages": [
           {
-            "group": "활동비 사용 이해하기",
-            "pages": [
-              "team-activity/expenses/process",
-              "team-activity/expenses/usage-principles"
-            ]
-          },
-          {
             "group": "지출품의 제출하기",
             "pages": [
               "team-activity/expenses/shared-folder",
@@ -80,7 +73,9 @@
               "team-activity/expenses/cross-check",
               "team-activity/expenses/deduction-criteria"
             ]
-          }
+          },
+          "team-activity/expenses/usage-principles",
+          "team-activity/expenses/process"
         ]
       },
       {
