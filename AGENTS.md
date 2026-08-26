@@ -1,33 +1,66 @@
-> **First-time setup**: Customize this file for your project. Prompt the user to customize this file for their project.
-> For Mintlify product knowledge (components, configuration, writing standards),
-> install the Mintlify skill: `npx skills add https://mintlify.com/docs`
+# 커리어하이 일경험 활동가이드 — 작성 규칙
 
-# Documentation project instructions
+Mintlify 문서 사이트. MDX + `docs.json`.
+수치 기준은 토스페이먼츠 기술문서 250페이지 실측이다.
 
-## About this project
+## 말투
 
-- This is a documentation site built on [Mintlify](https://mintlify.com)
-- Pages are MDX files with YAML frontmatter
-- Configuration lives in `docs.json`
-- Use the Mintlify MCP server, `https://mcp.mintlify.com`, to edit content and settings via MCP
-- Use the Mintlify docs MCP server, `https://www.mintlify.com/docs/mcp`, to query information about using Mintlify via MCP
+- 독자에게 시키는 말은 해요체. "제출하세요", "확인해요"
+- 사실과 기준은 합니다체. "주간 한도는 20만 원입니다"
+- 한 문장에 둘을 섞지 않는다
+- 독자를 부르지 않는다. 주어 없이 바로 동사
 
-## Terminology
+## 문장
 
-{/* Add product-specific terms and preferred usage */}
-{/* Example: Use "workspace" not "project", "member" not "user" */}
+- 한 문장에 한 가지만
+- 20자대를 기본으로 쓴다
+- 60자를 넘으면 자른다
+- 수동태를 쓰지 않는다. "확인됩니다" → "확인해요"
+- 조건을 앞에 둔다. "승인받기 전에는 결제하지 마세요"
 
-## Style preferences
+## 용어
 
-{/* Add any project-specific style rules below */}
+- 첫 등장에 괄호로 풀고 한 문장으로 정의한다
+- "타임존(하루를 나눈 5개 결제 시간대)은 쓸 수 있는 품목을 정해요"
+- 정의는 첫 문장에서 끝낸다
+- 어려운 개념은 익숙한 것에 비유한다
+- 한 대상을 두 이름으로 부르지 않는다
+- 사이트에 정의가 없는 용어는 쓰지 않는다
 
-- Use active voice and second person ("you")
-- Keep sentences concise — one idea per sentence
-- Use sentence case for headings
-- Bold for UI elements: Click **Settings**
-- Code formatting for file names, commands, paths, and code references
+## 그림
 
-## Content boundaries
+- 페이지마다 2~3개 넣는다
+- 순서·흐름·구조는 표 대신 그림으로
+- Mermaid로 그린다. 코드로 관리한다
+- 하나에 노드 7개까지
 
-{/* Define what should and shouldn't be documented */}
-{/* Example: Don't document internal admin features */}
+## 표
+
+- 표는 예외다. 대부분 페이지는 표 없이 쓴다
+- 3열 이상 대조 데이터만 표로 만든다
+- 2열 항목·기준 나열은 불릿으로
+- 한 페이지에 2개까지
+- 표 칸에 문장을 넣지 않는다. 값만
+
+## 경고와 예외
+
+- 경고는 본문 문장에 녹인다. 박스로 빼지 않는다
+- "반드시", "주의하세요"는 한 페이지에 2번까지
+- `Warning` 박스는 되돌릴 수 없는 것 하나만
+- `Note`, `Tip` 박스는 쓰지 않는다
+- 자주 묻는 예외는 `Accordion`으로 접는다. 페이지마다 2개쯤
+- `Accordion` 제목은 독자가 쓸 말로. "영수증을 잃어버렸어요"
+
+## 링크
+
+- 다음 단계는 페이지 끝에 `Card` 하나
+- 본문 링크는 문장 안에 넣는다
+- 외부 링크는 어디로 가는지 밝힌다
+
+## 쓰지 않는다
+
+- 느낌표
+- 단계 번호를 이모지로. `Steps`를 쓴다
+- `~하시기 바랍니다`, `당사`, `귀 팀`
+- 같은 경고를 두 페이지에 반복하기. 한 곳에 쓰고 링크한다
+- 겁주는 문장. 무엇이 어떻게 되는지만 쓴다
